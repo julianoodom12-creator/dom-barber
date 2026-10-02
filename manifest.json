@@ -1,0 +1,43 @@
+{
+  "name": "Dom Barber — Barbearia Premium",
+  "short_name": "Dom Barber",
+  "description": "Corte, barba e cuidado masculino em Francisco Beltrão · PR. Agende pelo WhatsApp.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "categories": ["lifestyle", "business", "shopping"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Agendar no WhatsApp",
+      "short_name": "Agendar",
+      "description": "Falar direto com a Dom Barber",
+      "url": "/?abrir=wpp",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
