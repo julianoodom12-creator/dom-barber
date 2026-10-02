@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8c97a"/>
+      <stop offset="50%" stop-color="#c9a961"/>
+      <stop offset="100%" stop-color="#8a6f2e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="512" height="512" rx="110" fill="url(#glow)"/>
+
+  <!-- moldura dourada -->
+  <rect x="28" y="28" width="456" height="456" rx="90"
+        fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.55"/>
+
+  <!-- círculo decorativo -->
+  <circle cx="256" cy="256" r="180" fill="none"
+          stroke="url(#gold)" stroke-width="2" opacity="0.25"/>
+
+  <!-- monograma DB -->
+  <text x="256" y="256"
+        font-family="'Playfair Display',Georgia,serif"
+        font-size="230" font-weight="900"
+        text-anchor="middle" dominant-baseline="central"
+        fill="url(#gold)">DB</text>
+
+  <!-- linha sublinhada dourada -->
+  <line x1="150" y1="360" x2="362" y2="360"
+        stroke="url(#gold)" stroke-width="4"
+        stroke-linecap="round" opacity="0.85"/>
+
+  <!-- pequenos detalhes de barbearia (navalha estilizada) -->
+  <path d="M 175 400 Q 256 425 337 400"
+        fill="none" stroke="url(#gold)"
+        stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+</svg>
